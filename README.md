@@ -54,9 +54,9 @@ The code is quite straifntforward, however, making houdini pyhtin respond "live"
 
 ## what could be cool in the future
 ### ideas
-houdini to puredata
-puredata to houdini
-mousekeys listener to puredata
+- houdini to puredata
+- puredata to houdini
+- mousekeys listener to puredata
 
 
 ### workflow
@@ -65,8 +65,8 @@ little shell script where i can choose the function and song
 e.g. ```soundbox -m keystrokelistner -s ambient_1 ```
 
 where soundbox is an alias for the shell script ```soundbox.sh```
--m would be the mode e.g. "keystrokelistener"
--s would be the song file i puredata. e.g "ambient_1 " --> $SOUNDBOX_ENV/files/ambient_1
+- -m would be the mode e.g. "keystrokelistener"
+- -s would be the song file i puredata. e.g "ambient_1 " --> $SOUNDBOX_ENV/files/ambient_1
 
 
 
