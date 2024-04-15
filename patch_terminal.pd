@@ -1,0 +1,31 @@
+#N canvas 0 530 1918 497 12;
+#X obj 423 666 dac~;
+#X obj 302 734 print foobar;
+#X obj 300 655 metro 1000;
+#X obj 305 693 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 300 602 loadbang;
+#X obj 174 447 key 32;
+#X obj 172 735 print spacebar;
+#X obj 231 244 netreceive -u -b 3333;
+#X floatatom 525 440 5 0 0 0 - - - 0;
+#X obj 174 293 print;
+#X obj 230 294 unpack f f f f f f f f f;
+#X obj 433 589 osc~ 100;
+#X obj 413 512 delay 2;
+#X obj 402 552 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
+#X connect 4 0 2 0;
+#X connect 5 0 6 0;
+#X connect 5 0 11 1;
+#X connect 7 0 9 0;
+#X connect 7 0 10 0;
+#X connect 8 0 12 0;
+#X connect 8 0 11 1;
+#X connect 10 7 8 0;
+#X connect 11 0 0 0;
+#X connect 11 0 0 1;
+#X connect 12 0 11 0;
+#X connect 12 0 13 0;
