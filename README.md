@@ -13,7 +13,7 @@ pd -gui  -send "; pd dsp 1" ~/Downloads/patch_terminal.pd
 
 ## basic TCP connection setup in puredata
 
-[TCP_puredata](media/TCP_puredata.png)
+![TCP_puredata](media/TCP_puredata.png)
 
 
 ## sending TCP data from houdini 
